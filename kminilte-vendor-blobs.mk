@@ -26,8 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/hw/camera.universal3470.so:system/lib/hw/camera.universal3470.so \
     vendor/samsung/kminilte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/kminilte/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/kminilte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/kminilte/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
     vendor/samsung/kminilte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/kminilte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/kminilte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
@@ -133,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/kminilte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/kminilte/proprietary/lib/libacdapi_clb.so:system/lib/libacdapi_clb.so \
+    vendor/samsung/kminilte/proprietary/lib/libHrmEol.so:system/lib/libHrmEol.so \
     vendor/samsung/kminilte/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
     vendor/samsung/kminilte/proprietary/etc/wifi/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
