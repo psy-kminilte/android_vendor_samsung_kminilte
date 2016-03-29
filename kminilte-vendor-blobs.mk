@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/kminilte/proprietary/lib/libMali.so:system/lib/libMali.so \
     vendor/samsung/kminilte/proprietary/lib/libExynosIPService.so:system/lib/libExynosIPService.so \
-    vendor/samsung/kminilte/proprietary/vendor/lib/hw/hwcomposer.exynos3.so:system/vendor/lib/hw/hwcomposer.exynos3.so \
+    vendor/samsung/kminilte/proprietary/lib/hw/hwcomposer.exynos3.so:system/lib/hw/hwcomposer.exynos3.so \
     vendor/samsung/kminilte/proprietary/lib/hw/gralloc.exynos3.so:system/lib/hw/gralloc.exynos3.so \
     vendor/samsung/kminilte/proprietary/lib/libdisplay.so:system/lib/libdisplay.so \
     vendor/samsung/kminilte/proprietary/lib/libdisplaymodule.so:system/lib/libdisplaymodule.so \
@@ -84,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/hw/nfc_nci.universal3470.so:system/lib/hw/nfc_nci.universal3470.so \
     vendor/samsung/kminilte/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
     vendor/samsung/kminilte/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
-    vendor/samsung/kminilte/proprietary/etc/init.sec.boot.sh:system/etc/init.sec.boot.sh \
     vendor/samsung/kminilte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     vendor/samsung/kminilte/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
     vendor/samsung/kminilte/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
@@ -111,20 +110,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
     vendor/samsung/kminilte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/kminilte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
-    vendor/samsung/kminilte/proprietary/etc/ExynosOMXReg.conf:system/etc/ExynosOMXReg.conf \
-    vendor/samsung/kminilte/proprietary/lib/libExynosOMX263d.so:system/lib/libExynosOMX263d.so \
-    vendor/samsung/kminilte/proprietary/lib/libExynosOMX264d.so:system/lib/libExynosOMX264d.so \
-    vendor/samsung/kminilte/proprietary/lib/libExynosOMXCmn.so:system/lib/libExynosOMXCmn.so \
     vendor/samsung/kminilte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
-    vendor/samsung/kminilte/proprietary/lib/libExynosOMXCore.so:system/lib/libExynosOMXCore.so \
-    vendor/samsung/kminilte/proprietary/lib/libExynosOMXMp4vd.so:system/lib/libExynosOMXMp4vd.so \
     vendor/samsung/kminilte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
-    vendor/samsung/kminilte/proprietary/lib/libExynosOMXVc1d.so:system/lib/libExynosOMXVc1d.so \
     vendor/samsung/kminilte/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
     vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    vendor/samsung/kminilte/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/kminilte/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/kminilte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/kminilte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
@@ -145,8 +138,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kminilte/proprietary/lib/libsamsungRecord_zoom.so:system/lib/libsamsungRecord_zoom.so \
     vendor/samsung/kminilte/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     vendor/samsung/kminilte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
-    vendor/samsung/kminilte/proprietary/lib/lib_SamsungRec_V04003.so:system/lib/lib_SamsungRec_V04003.so \
-    vendor/samsung/kminilte/proprietary/lib/lib_Samsung_AudioZoom_v100.so:system/lib/lib_Samsung_AudioZoom_v100.so \
+    vendor/samsung/kminilte/proprietary/lib/lib_SamsungRec_V04004.so:system/lib/lib_SamsungRec_V04004.so \
+    vendor/samsung/kminilte/proprietary/lib/lib_Samsung_AudioZoom_v102.so:system/lib/lib_Samsung_AudioZoom_v102.so \
     vendor/samsung/kminilte/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/kminilte/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v04004.so:system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so \
     vendor/samsung/kminilte/proprietary/bin/vcsFPService:system/bin/vcsFPService \
